@@ -1,0 +1,98 @@
+.Feature{
+    height: 100vh;
+}
+.Feature--vertical{
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%)
+}
+.Feature--horizontal{
+    padding-left: 30px;
+    height: inherit;
+    width: inherit;
+    background: linear-gradient(to right, #111 30% , transparent 70%);
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-bottom: 70px;
+
+  
+}
+.Feature--name{
+    font-size: 40px;
+    font-weight:bold
+    
+}
+.Feature--info{
+  margin-top:15px;
+}
+
+.Feature--info--pontos,
+.Feature--info--ano,
+.Feature--info--temporada{
+    display: inline-block;
+    margin-right: 8px;
+    font-weight:bold;
+    font-size: 18px;
+    
+}
+.Feature--info--pontos{
+    color: #46D369
+}
+
+
+.Feature--description{
+    max-width: 40%;
+    color: #999;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.Feature--Buttons{
+    margin-top: 15px;
+}
+.Feature--Buttons-Button,
+.Feature--Buttons-List{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    opacity: 1;
+    margin-right: 8px;
+}
+.Feature--Buttons-Button{
+    background: #FFF;
+    color: #111;
+    
+}
+.Feature--Buttons-List{
+    background: #9999;
+    color: #FFF;
+}
+.Feature--Buttons-Button:hover,
+.Feature--Buttons-List:hover{
+  opacity: 0.7;
+}
+
+.Feature--gem{
+    margin-top: 15px;
+}
+.Feature--gem-t,
+.Feature--gem-g{
+    display: inline-block;
+    color: #999;
+    font-size: 18px;
+}
+.Feature--gem-g{
+    font-weight: bold;
+}
+
+@media (max-width:720px){
+ .Feature--name{
+     font-size: 25px;
+ }
+ .Feature--description{
+     max-width: inherit;
+ }
+}

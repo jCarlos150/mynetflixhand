@@ -1,0 +1,34 @@
+header{
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 0px 30px;
+    transition: all ease 0.2s;
+    
+}
+/** header black **/
+
+.black{
+    background: #141414;
+}
+
+.Header--logo{
+    height: 35px;
+}
+.Header--logo img {
+    height: 100%;
+}
+.Header--perfi{
+    height: 35px;
+}
+.Header--perfi img {
+    height: 100%;
+    border-radius: 5px;
+}
